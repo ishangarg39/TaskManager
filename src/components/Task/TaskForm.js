@@ -9,7 +9,7 @@ export default function TaskForm() {
     const [dueDate, setDueDate] = useState('');
     var userCollectionRef;
     const navigate = useNavigate();
-const [count ,setCount]=useState();
+const [count ,setCount]=useState(1);
     
 var displayName;
 const user = auth.currentUser;
